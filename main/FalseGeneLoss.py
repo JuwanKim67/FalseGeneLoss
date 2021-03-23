@@ -4292,10 +4292,10 @@ if __name__ == '__main__':
         a.mp_main_mpileup_of_sequence_level_fgl(fgl_s="prematurestopcodon", num_processors_i=process_num_i)
 
     if work_s.lower() == "summary":
-        #a.count_fgl_number()
-        #a.ratio_of_fgl()
+        a.count_fgl_number()
+        a.ratio_of_fgl()
         a.mp_gc_n_repeat_of_genes(num_processors_i=process_num_i)
-        #a.genome_gc_n_repeat_summary(window_size_i=10000)
+        a.genome_gc_n_repeat_summary(window_size_i=10000)
 
     if work_s.lower() == "circos_maker":
         a.circos_maker(scaff_2_chrom_d)
