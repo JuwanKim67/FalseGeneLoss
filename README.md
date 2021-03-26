@@ -2,9 +2,9 @@
 [FalseGeneLoss.py]
 Version 1.0
 
-(1) To do: compare annotation of different assemblies of the same species
-(2) OS: Ubuntu 18.04.3 LTS (GNU/Linux 5.4.0-42-generic x86_64)
-(3) Necessary input files:
+- (1) To do: compare annotation of different assemblies of the same species
+- (2) OS: Ubuntu 18.04.3 LTS (GNU/Linux 5.4.0-42-generic x86_64)
+- (3) Necessary input files:
 
 [mandatory]
 - Assembly A from NCBI (.fasta, should be softmasked by windowmasker)
