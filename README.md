@@ -24,13 +24,13 @@ Version 1.0
 - (if want to compare NCBI remap result with cactus) NCBI remap excel file
 
 (4) variable_suffix:
-[variable name]_s: string
-[variable name]_chr: character (=length 1 string)
-[variable name]_l: list
-[variable name]_nl: nested list
-[variable name]_i: integer
-[variable name]_bool: boolean
-[variable name]_d: dictonary
-[variable name]_f: file
-[variable name]_fl: float
-[variable name]_rec: gffutils record
+- [variable name]_s: string
+- [variable name]_chr: character (=length 1 string)
+- [variable name]_l: list
+- [variable name]_nl: nested list
+- [variable name]_i: integer
+- [variable name]_bool: boolean
+- [variable name]_d: dictonary
+- [variable name]_f: file
+- [variable name]_fl: float
+- [variable name]_rec: gffutils record
